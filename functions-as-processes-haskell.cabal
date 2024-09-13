@@ -1,12 +1,12 @@
 cabal-version:      2.4
-name:               haskell-template
+name:               functions-as-processes-haskell
 version:            0.1.0.0
 license:            MIT
 copyright:          2023 BenjaminCB
 maintainer:         benjamincb@hotmail.dk
 author:             BenjaminCB
 category:           Web
-homepage:           https://github.com/BenjaminCB/haskell-template
+homepage:           https://github.com/BenjaminCB/functions-as-processes-haskell
 
 -- TODO: Before hackage release.
 -- A short (one-line) description of the package.
@@ -39,6 +39,6 @@ common shared
   hs-source-dirs:     src
   default-language:   Haskell2010
 
-executable haskell-template
+executable functions-as-processes-haskell
   import:  shared
   main-is: Main.hs
